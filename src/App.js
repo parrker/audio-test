@@ -4,7 +4,7 @@ import SentencesList from './containers/SentensesList/SentencesList';
 import Controls from './containers/Controls/Controls';
 import sentences from './assets/text/sentences';
 
-const timePerSentence = 1000; // milliseconds
+const timePerSentence = 10000; // milliseconds
 
 class App extends Component {
   constructor(props) {
