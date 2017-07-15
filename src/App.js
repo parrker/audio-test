@@ -34,12 +34,6 @@ class App extends Component {
     }
   }
 
-  save(e) {
-    this.handleClick(e);
-
-    // TODO: Save to server
-  }
-
   render() {
     const { highlightedIndex } = this.state;
 

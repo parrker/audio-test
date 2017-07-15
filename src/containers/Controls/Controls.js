@@ -83,6 +83,12 @@ export default class Controls extends Component {
     document.getElementById('audio').play();
   }
 
+  save(e) {
+    this.handleClick(e);
+
+    // TODO: Save to server
+  }
+
   render() {
     const { downloadUrl, buttons, src } = this.state;
 
