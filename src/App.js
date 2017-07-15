@@ -5,7 +5,7 @@ import SentencesList from './containers/SentensesList/SentencesList';
 import Controls from './containers/Controls/Controls';
 import sentences from './assets/text/sentences';
 import Recorder from './components/Recorder/Recorder';
-import { captureAudio } from './utils/audio';
+import captureAudio from './utils/audio';
 
 const timePerSentence = 10000;
 
@@ -52,9 +52,9 @@ class App extends Component {
   }
 
   enableButtons() {
-    const newButtons = this.state.buttons.map(b => ({ ...b, disabled: false }));
+    const buttons = this.state.buttons.map(b => ({ ...b, disabled: false }));
 
-    this.setState({ buttons: newButtons });
+    this.setState({ buttons });
   }
 
   startRecording(e) {
