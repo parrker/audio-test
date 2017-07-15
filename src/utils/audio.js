@@ -1,4 +1,4 @@
-export default (func) => {
+const captureAudio = (func) => {
   const params = { audio: true, video: false };
 
   navigator.getUserMedia(params, func, (error) => {
@@ -6,3 +6,4 @@ export default (func) => {
   });
 };
 
+export default captureAudio;
