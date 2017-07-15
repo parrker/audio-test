@@ -1,0 +1,16 @@
+.sentence {
+    margin-bottom: 20px;
+}
+
+.sentence h2 {
+    padding: 0 20px;
+}
+
+.sentence p {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.sentence .highlighted {
+    background: #bada55;
+}
