@@ -7,7 +7,7 @@ import sentences from './assets/text/sentences';
 import Recorder from './components/Recorder/Recorder';
 import captureAudio from './utils/audio';
 
-const timePerSentence = 10000;
+const timePerSentence = 10000; // milliseconds
 
 class App extends Component {
   constructor(props) {
