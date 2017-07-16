@@ -90,12 +90,12 @@ export default class Controls extends Component {
   }
 
   render() {
-    const { downloadUrl, buttons, src } = this.state;
+    const { buttons, src } = this.state;
 
     return (
       <div className="controls">
         {buttons.map(b => (
-          <Button key={b.label} {...b} src={downloadUrl} />
+          <Button key={b.label} {...b} src={src} />
         ))}
         <Recorder src={src} />
       </div>

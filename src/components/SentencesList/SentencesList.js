@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Sentence from '../../components/Sentence/Sentence';
+import Sentence from './Sentence/Sentence';
 
 const SentencesList = (props) => {
   const { sentences, highlightedIndex } = props;

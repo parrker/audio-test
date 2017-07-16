@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import SentencesList from './containers/SentensesList/SentencesList';
+import SentencesList from './components/SentencesList/SentencesList';
 import Controls from './containers/Controls/Controls';
 import sentences from './assets/text/sentences';
 
